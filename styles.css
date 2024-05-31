@@ -62,6 +62,7 @@ aside img {
 #bottom_nav {
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
 }
 
 main {
@@ -92,4 +93,18 @@ article {
   border-radius: 5px;
   border-left: 5px solid var(--color-accent);
   height: 100px;
+}
+
+#greeting {
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  background-color: white;
+  padding: 15px;
+}
+
+hr {
+  margin: 5px;
 }
