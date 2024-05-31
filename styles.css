@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-* {}
-
 button {
   background-color: var(--color-main);
   font-weight: bolder;
@@ -45,7 +43,6 @@ aside {
 header {
   padding-block: 10px;
   padding-inline: 30px;
-  background-color: #595481;
   box-shadow: 0 5px 5px -1px black;
 
 }
@@ -65,10 +62,10 @@ aside img {
 #bottom_nav {
   display: flex;
   justify-content: space-between;
-
 }
 
 main {
+  margin: 15px;
   padding: 5px;
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -80,13 +77,19 @@ article {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 15px;
+  padding-right: 10px;
+}
+
+#projects {
+  margin: 0;
+  padding: 0;
+  grid-column: 1/ -1;
 }
 
 
 .card {
   background-color: white;
   border-radius: 5px;
-  border-left: 5px solid blue;
+  border-left: 5px solid var(--color-accent);
   height: 100px;
-
 }
